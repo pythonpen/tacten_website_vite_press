@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Solve for Healthcare - with Open Source"
 
-  tagline: We are Healthcare IT experts bringing to life <b>Open Source</b> for the most parts, to achieve maximal digitalhealth surface area cover - <b>rapidly</b>.
+  tagline: "We are Healthcare IT experts bringing to life <span style='text-decoration: underline double;'>Open Source</span> for the most parts, to achieve maximal digitalhealth surface area cover - <span style='text-decoration: underline double;'>rapidly</span>."
   image:
     src: /hero-image.svg
     alt: Healthcare IT Illustration
@@ -30,7 +30,7 @@ hero:
     ],
     link: '/expertise',
     linkText: 'From concept to compliant production—without slow, risky implementation cycles.',
-    image: '/hero-image.svg'
+    image: '/health.svg'
   },
   {
     title: 'Enterprise-Ready by Design',
@@ -43,7 +43,7 @@ hero:
     ],
     link: '/solutions',
     linkText: 'Trusted foundations for mission-critical software.',
-    image: '/hero-image.svg'
+    image: 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&q=80'
   },
   {
     title: 'Open Source. No Lock-Ins. Full Ownership.',
@@ -55,6 +55,8 @@ hero:
     ],
     link: '/services',
     linkText: 'Learn more about our Open Source approach',
-    image: '/hero-image.svg'
+    image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80'
   }
 ]" />
+
+<AboutSection />
