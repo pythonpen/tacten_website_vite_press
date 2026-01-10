@@ -19,8 +19,16 @@ export default defineConfig({
       { text: 'Solutions', link: '/solutions' },
       { text: 'Expertise', link: '/expertise' },
       { text: 'Services', link: '/services' },
-      { text: 'Docs', link: '/docs/' },
-      { text: 'Blog', link: '/blog/' }
+      {
+        text: 'Resources',
+        items: [
+          { text: 'Docs', link: '/docs/' },
+          { text: 'Blog', link: '/blog/' }
+        ]
+      },
+      { text: '|', link: ' ' },
+      { text: 'About', link: '/about' },
+      { text: 'Contact Us', link: '/contact' }
     ],
 
     sidebar: [
