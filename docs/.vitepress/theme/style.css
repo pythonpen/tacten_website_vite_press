@@ -1,0 +1,8 @@
+:root {
+  --vp-nav-logo-height: 48px;
+}
+
+/* Ensure the navbar adjusts if needed, though variable usually handles it */
+.VPNavBarTitle .logo {
+  height: 48px;
+}

@@ -1,0 +1,5 @@
+tacten_co_webfe/
+node_modules/
+.DS_Store
+docs/.vitepress/cache/
+docs/.vitepress/dist/
