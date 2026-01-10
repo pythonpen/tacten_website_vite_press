@@ -34,19 +34,24 @@ export default defineConfig({
     sidebar: [
       {
         text: 'Products',
+        collapsed: false,
         items: [
           { text: 'Biograph', link: '/products/biograph' },
           { text: 'Hydra', link: '/products/hydra' }
         ]
       },
+      { text: 'Solutions', link: '/solutions' },
+      { text: 'Expertise', link: '/expertise' },
+      { text: 'Services', link: '/services' },
       {
         text: 'Resources',
         items: [
-          { text: 'Solutions', link: '/solutions' },
-          { text: 'Expertise', link: '/expertise' },
-          { text: 'Services', link: '/services' }
+          { text: 'Docs', link: '/docs/' },
+          { text: 'Blog', link: '/blog/' }
         ]
-      }
+      },
+      { text: 'About', link: '/about' },
+      { text: 'Contact Us', link: '/contact' }
     ],
 
     socialLinks: [

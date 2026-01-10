@@ -6,3 +6,20 @@
 .VPNavBarTitle .logo {
   height: 48px;
 }
+
+/* Custom Sidebar Toggle Styles */
+@media (min-width: 960px) {
+  .close-sidebar .VPSidebar {
+    display: none !important;
+  }
+
+  .close-sidebar .VPContent {
+    padding-left: 0 !important;
+  }
+
+  .close-sidebar .VPContent .container {
+    max-width: 1104px;
+    /* Standard readable width, adjustable */
+    margin: 0 auto;
+  }
+}
