@@ -20,7 +20,6 @@ const clients = [
 ]
 
 onMounted(() => {
-    // Basic Intersection Observer implementation matching Svelte version
     const observer = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -37,16 +36,16 @@ onMounted(() => {
 <template>
   <div class="flex justify-center items-center flex-col pb-5 mt-0 about-section">
     <div class="mx-auto w-full pt-4 pb-5 fade overflow-hidden">
-        <h2 class="text-center text-3xl tracking-tight text-gray-900 sm:text-4xl mb-12 font-bold title">Trusted By</h2>
+        <h2 class="text-center text-3xl tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl mb-12 font-bold title">Trusted By</h2>
 
-        <div class="marquee-container">
+        <div class="marquee-container relative flex overflow-hidden user-select-none">
             <!-- First set of logos -->
-            <div class="animate-marquee">
-                <img v-for="client in clients" :key="client" :src="client" class="client-logo" alt="Client Logo" />
+            <div class="animate-marquee flex flex-row items-center gap-12 min-w-full shrink-0 justify-around">
+                <img v-for="client in clients" :key="client" :src="client" class="client-logo h-16 w-auto object-contain transition-all duration-300" alt="Client Logo" />
             </div>
              <!-- Duplicate set for seamless loop -->
-            <div class="animate-marquee" aria-hidden="true">
-                <img v-for="client in clients" :key="client + '_duplicate'" :src="client" class="client-logo" alt="Client Logo" />
+            <div class="animate-marquee flex flex-row items-center gap-12 min-w-full shrink-0 justify-around" aria-hidden="true">
+                <img v-for="client in clients" :key="client + '_duplicate'" :src="client" class="client-logo h-16 w-auto object-contain transition-all duration-300" alt="Client Logo" />
             </div>
         </div>
     </div>
@@ -59,18 +58,9 @@ onMounted(() => {
     margin-top: 2rem;
 }
 
-.title {
-    font-weight: 700;
-    margin-bottom: 3rem;
-}
-
 .client-logo {
-    height: 4rem; /* h-16 */
-    width: auto;
-    object-fit: contain;
     filter: grayscale(100%);
     opacity: 0.7;
-    transition: all 0.3s;
 }
 
 .client-logo:hover {
@@ -79,22 +69,11 @@ onMounted(() => {
 }
 
 .marquee-container {
-    position: relative;
-    display: flex;
-    overflow: hidden;
-    user-select: none;
     mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
 }
 
 .animate-marquee {
     animation: marquee 40s linear infinite;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    gap: 3rem; /* gap-12 */
-    min-width: 100%;
-    flex-shrink: 0;
 }
 
 @keyframes marquee {
@@ -106,7 +85,7 @@ onMounted(() => {
     user-select: none;
 }
 
-/* Fade in animation classes (global or scoped if applicable) */
+/* Fade in animation styles */
 .fade {
     opacity: 0;
     transform: translateY(20px);

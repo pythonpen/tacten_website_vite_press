@@ -1,22 +1,10 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
-
-hero:
-  name: "Solve for Healthcare - with Open Source"
-
-  tagline: "We are Healthcare IT experts bringing to life <span style='text-decoration: underline double;'>Open Source</span> for the most parts, to achieve maximal digitalhealth surface area cover - <span style='text-decoration: underline double;'>rapidly</span>."
-  image:
-    src: /hero-image.svg
-    alt: Healthcare IT Illustration
-  actions:
-    - theme: brand
-      text: Biograph
-      link: /products/biograph
-    - theme: alt
-      text: Sign-Up for Biograph
-      link: /products/hydra
+sidebar: false
 ---
+
+<HeroSection />
 
 <ZigZagSection :features="[
   {
