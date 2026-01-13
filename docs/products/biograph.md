@@ -1562,6 +1562,8 @@ Those are excellent for public health and resource-limited settings. Biograph is
 
 <div class="cta-options">
 
+<div>
+
 #### 🚀 Try the Demo
 Experience Biograph with sample data
 - No installation required
@@ -1570,6 +1572,10 @@ Experience Biograph with sample data
 - Explore customization
 
 [**Launch Demo →**](https://marley.frappe.cloud)
+
+</div>
+
+<div>
 
 #### 📚 Read the Docs
 Comprehensive documentation
@@ -1580,6 +1586,10 @@ Comprehensive documentation
 
 [**View Documentation →**](https://deepwiki.com/Tacten/biograph)
 
+</div>
+
+<div>
+
 #### 💬 Join the Community
 Connect with users and developers
 - Ask questions
@@ -1589,6 +1599,10 @@ Connect with users and developers
 
 [**Join Forum →**](https://discuss.frappe.io)
 
+</div>
+
+<div>
+
 #### 📞 Talk to an Expert
 Schedule a consultation
 - Discuss your requirements
@@ -1597,6 +1611,8 @@ Schedule a consultation
 - Pricing information
 
 [**Book a Call →**](/book-a-call)
+
+</div>
 
 </div>
 
@@ -1615,7 +1631,11 @@ Built on the powerful Frappe/ERPNext ecosystem, Biograph gives you:
 
 ### Quick Links
 
+</div>
+
 <div class="footer-links">
+
+<div>
 
 **Product**
 - [Features](#comprehensive-feature-coverage)
@@ -1623,17 +1643,29 @@ Built on the powerful Frappe/ERPNext ecosystem, Biograph gives you:
 - [Pricing](#pricing--licensing)
 - [Demo](https://marley.frappe.cloud)
 
+</div>
+
+<div>
+
 **Resources**
 - [Documentation](https://deepwiki.com/Tacten/biograph)
 - [GitHub](https://github.com/Tacten/biograph)
 - [Community Forum](https://discuss.frappe.io)
 - [Blog](/blog)
 
+</div>
+
+<div>
+
 **Company**
 - [About Tacten](/about)
 - [Contact](/contact-us)
 - [Support](https://mi.tacten.link/tacten-support/new)
 - [Enterprise Hosting](/enterprise-cloud-hosting)
+
+</div>
+
+<div>
 
 **Connect**
 - [LinkedIn](https://www.linkedin.com/company/tacten)
