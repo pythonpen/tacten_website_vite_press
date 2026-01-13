@@ -2,15 +2,13 @@
 layout: home
 title: Biograph - Open Source Hospital Information System
 description: The only open-source HIMS that gives you clinical workflows AND complete business operations - powered by the Frappe/ERPNext ecosystem
-sidebar: false
-prev: false
-next: false
+
 hero:
   name: Biograph
   text: Hospital Information System with Enterprise ERP Power, Built-In
   tagline: The only open-source HIMS that gives you clinical workflows AND complete business operations - powered by the Frappe/ERPNext ecosystem
   image:
-    src: /health.svg
+    src: /biograph-hero-screenshot.png
     alt: Biograph Platform Interface
   actions:
     - theme: brand
@@ -67,8 +65,6 @@ Unlike standalone HIMS solutions, Biograph leverages the entire Frappe/ERPNext e
 
 <div class="three-column-grid">
 
-<div>
-
 ### 🏥 Clinical Operations
 **Industry-Standard Healthcare**
 
@@ -82,10 +78,6 @@ Unlike standalone HIMS solutions, Biograph leverages the entire Frappe/ERPNext e
 - **Medical Coding** - ICD-10, SNOMED-CT support
 - **Encounter Management** - Complete visit documentation
 - **Vitals Tracking** - Configurable vital signs capture
-
-</div>
-
-<div>
 
 ### 🏢 Business Operations
 **Full ERPNext Integration Included**
@@ -102,10 +94,6 @@ Unlike standalone HIMS solutions, Biograph leverages the entire Frappe/ERPNext e
 - **E-commerce** - Online pharmacy, appointment booking
 - **Manufacturing** - Medical device production (if applicable)
 - **Supply Chain** - Complete logistics management
-
-</div>
-
-<div>
 
 ### 🔧 Platform Capabilities
 **Frappe Framework Power**
@@ -125,8 +113,6 @@ Unlike standalone HIMS solutions, Biograph leverages the entire Frappe/ERPNext e
 
 </div>
 
-</div>
-
 ---
 
 ## The Frappe/ERPNext Advantage
@@ -135,16 +121,10 @@ Biograph isn't just another healthcare app - it's built on one of the world's mo
 
 <div class="ecosystem-grid">
 
-<div>
-
 ### 🌟 Battle-Tested Technology
 **10,000+ Organizations Trust This Stack**
 
 Companies worldwide run their entire operations on Frappe/ERPNext - from small clinics to large hospital chains. You're building on proven technology with 15+ years of active development.
-
-</div>
-
-<div>
 
 ### 👥 Active Global Community
 **Never Build Alone**
@@ -155,10 +135,6 @@ Companies worldwide run their entire operations on Frappe/ERPNext - from small c
 - Extensive documentation and tutorials
 - Responsive forums and chat channels
 - YouTube channels with hundreds of tutorials
-
-</div>
-
-<div>
 
 ### 🔌 300+ ERPNext Modules
 **Extend Beyond Healthcare**
@@ -171,10 +147,6 @@ Access the entire ERPNext ecosystem:
 - **Agriculture** - Herbal medicine supply chains
 - **Hospitality** - Patient accommodation
 
-</div>
-
-<div>
-
 ### 🏪 Frappe Marketplace
 **Hundreds of Pre-Built Apps**
 
@@ -185,10 +157,6 @@ Access a thriving marketplace of extensions:
 - Shipping providers (FedEx, UPS, DHL)
 - Custom regional modules (Tax compliance, local regulations)
 
-</div>
-
-<div>
-
 ### 💼 Zero Vendor Lock-In
 **True Freedom**
 
@@ -198,10 +166,6 @@ Access a thriving marketplace of extensions:
 - Hire from a global pool of Frappe developers
 - No per-user licensing fees ever
 - Complete access to source code
-
-</div>
-
-<div>
 
 ### 🚀 Future-Proof Architecture
 **Modern Technology Stack**
@@ -217,15 +181,11 @@ Access a thriving marketplace of extensions:
 
 </div>
 
-</div>
-
 ---
 
 ## Why Integration Matters in Healthcare
 
 <div class="problem-solution">
-
-<div>
 
 ### 🔴 Traditional Healthcare IT Challenges
 
@@ -240,10 +200,6 @@ Healthcare organizations typically struggle with:
 - **License Proliferation** - Per-user fees across multiple systems
 - **Version Conflicts** - Updates break integrations constantly
 
-</div>
-
-<div>
-
 ### ✅ The Biograph Advantage
 
 With Biograph + ERPNext ecosystem:
@@ -256,8 +212,6 @@ With Biograph + ERPNext ecosystem:
 - **Single Training Curve** - Consistent UX across all modules
 - **Atomic Updates** - Everything stays in sync
 - **One API** - Integrate once, access everything
-
-</div>
 
 </div>
 
@@ -604,8 +558,6 @@ EMERGENCY DEPARTMENT PATIENT
 
 <div class="use-cases-grid">
 
-<div>
-
 ### 🏥 Multi-Specialty Hospitals
 **Complete Enterprise Healthcare Management**
 
@@ -623,10 +575,6 @@ Perfect for large hospitals needing:
 - Cross-departmental analytics
 - Centralized procurement
 - Consolidated reporting
-
-</div>
-
-<div>
 
 ### 🏪 Clinic Chains & Networks
 **Multi-Location Healthcare**
@@ -646,10 +594,6 @@ Ideal for clinic groups requiring:
 - Centralized control with local autonomy
 - Standardized workflows
 
-</div>
-
-<div>
-
 ### 🔬 Diagnostic Centers & Labs
 **Laboratory Operations Focus**
 
@@ -667,10 +611,6 @@ Tailored for standalone labs needing:
 - Online report portal
 - Collection center management
 - Referral doctor tracking (CRM)
-
-</div>
-
-<div>
 
 ### 🩻 Imaging & Radiology Centers
 **Specialized Imaging Workflows**
@@ -690,10 +630,6 @@ Designed for radiology centers with:
 - Film management
 - Equipment tracking (Assets)
 
-</div>
-
-<div>
-
 ### 🏃 Specialty Treatment Centers
 **Focused Clinical Programs**
 
@@ -710,10 +646,6 @@ For specialized facilities like:
 - Protocol-based care plans
 - Outcome tracking
 - Insurance claim management
-
-</div>
-
-<div>
 
 ### 💊 Pharmacy Chains
 **Retail Pharmacy Management**
@@ -733,10 +665,6 @@ For pharmacy businesses needing:
 - Accounting and taxation
 - CRM for customers
 
-</div>
-
-<div>
-
 ### 🏗️ Healthcare Startups
 **Modern Digital Health Platforms**
 
@@ -754,10 +682,6 @@ For digital health innovators building:
 - Scalable infrastructure
 - Portal framework
 
-</div>
-
-<div>
-
 ### 🌍 NGOs & Public Health
 **Community Healthcare Programs**
 
@@ -774,8 +698,6 @@ For non-profit organizations running:
 - Simple data collection forms
 - Reporting for donors
 - Project management tools
-
-</div>
 
 </div>
 
@@ -856,8 +778,6 @@ Don't want to install yet? Try our hosted demo:
 
 <div class="tech-stack">
 
-<div>
-
 #### Backend
 - **Python 3.10+** - Primary application language
 - **MariaDB 10.6+ / PostgreSQL 12+** - Database
@@ -867,10 +787,6 @@ Don't want to install yet? Try our hosted demo:
 - **Gunicorn** - WSGI HTTP server
 - **Nginx** - Web server and reverse proxy
 
-</div>
-
-<div>
-
 #### Frontend
 - **JavaScript ES6+** - Modern JavaScript
 - **Vue.js 3** - Progressive framework
@@ -878,10 +794,6 @@ Don't want to install yet? Try our hosted demo:
 - **Chart.js** - Data visualization
 - **Socket.IO** - Real-time communication
 - **HTML5/CSS3** - Responsive design
-
-</div>
-
-<div>
 
 #### Infrastructure
 - **Docker** - Containerization
@@ -892,13 +804,9 @@ Don't want to install yet? Try our hosted demo:
 
 </div>
 
-</div>
-
 ### Standards & Compliance
 
 <div class="standards-grid">
-
-<div>
 
 #### Healthcare Standards
 - ✅ **FHIR R4** - Fast Healthcare Interoperability Resources
@@ -909,10 +817,6 @@ Don't want to install yet? Try our hosted demo:
 - ✅ **SNOMED-CT** - Systematized Nomenclature of Medicine
 - ✅ **CPT** - Current Procedural Terminology
 
-</div>
-
-<div>
-
 #### Security & Compliance
 - ✅ **HIPAA** - Health Insurance Portability and Accountability Act
 - ✅ **SOC 2** - Service Organization Control
@@ -922,13 +826,9 @@ Don't want to install yet? Try our hosted demo:
 
 </div>
 
-</div>
-
 ### Deployment Options
 
 <div class="deployment-grid">
-
-<div>
 
 #### Cloud Hosting
 - **Frappe Cloud** - Official managed hosting
@@ -936,27 +836,17 @@ Don't want to install yet? Try our hosted demo:
 - **DigitalOcean, Linode** - Developer-friendly clouds
 - **Tacten Managed Hosting** - Healthcare-optimized hosting
 
-</div>
-
-<div>
-
 #### On-Premise
 - **Your Own Servers** - Complete control
 - **Virtual Machines** - VMware, Hyper-V
 - **Bare Metal** - Maximum performance
 - **Private Cloud** - OpenStack, Kubernetes
 
-</div>
-
-<div>
-
 #### Hybrid
 - **Clinical Data On-Premise** - For data sovereignty
 - **ERP in Cloud** - For scalability
 - **Disaster Recovery** - Multi-region setup
 - **Edge Computing** - For remote clinics
-
-</div>
 
 </div>
 
@@ -967,8 +857,6 @@ Don't want to install yet? Try our hosted demo:
 ### Join a Thriving Ecosystem
 
 <div class="community-section">
-
-<div>
 
 #### 💬 Community Channels
 
@@ -994,10 +882,6 @@ Don't want to install yet? Try our hosted demo:
 - Community answers
 - Best practices
 
-</div>
-
-<div>
-
 #### 📚 Learning Resources
 
 **Documentation**
@@ -1016,10 +900,6 @@ Don't want to install yet? Try our hosted demo:
 - Certification programs
 - Developer training
 - Implementation guides
-
-</div>
-
-<div>
 
 #### 🎓 Training & Certification
 
@@ -1041,10 +921,6 @@ Don't want to install yet? Try our hosted demo:
 - Integration patterns
 - Custom by Tacten
 
-</div>
-
-<div>
-
 #### 🏆 Events & Conferences
 
 **Frappeverse**
@@ -1065,40 +941,28 @@ Don't want to install yet? Try our hosted demo:
 
 </div>
 
-</div>
-
 ### Commercial Support
 
 <div class="support-tiers">
 
-<div>
-
 #### Community Support
-<strong>FREE</strong>
+**FREE**
 - Community forum access
 - GitHub issues
 - Community chat channels
 - Documentation
 - Best for: Learning, evaluation, small deployments
 
-</div>
-
-<div>
-
 #### Partner Support
-<strong>Varies by Partner</strong>
+**Varies by Partner**
 - Implementation services
 - Training and onboarding
 - Bug fixes and patches
 - Custom development
 - Best for: Medium-sized organizations
 
-</div>
-
-<div>
-
 #### Tacten Premium Support
-<strong>Contact for Pricing</strong>
+**Contact for Pricing**
 - 24/7 support coverage
 - Dedicated account manager
 - Priority bug fixes
@@ -1108,20 +972,14 @@ Don't want to install yet? Try our hosted demo:
 - Regular health checks
 - Best for: Large hospitals, critical deployments
 
-</div>
-
-<div>
-
 #### Frappe Cloud Support
-<strong>Included with Hosting</strong>
+**Included with Hosting**
 - Managed infrastructure
 - Automatic updates
 - Backup and recovery
 - 99.9% uptime SLA
 - SSL and security
 - Best for: Focus on healthcare, not DevOps
-
-</div>
 
 </div>
 
@@ -1251,10 +1109,8 @@ def get_patient_summary(patient_id):
 
 <div class="pricing-section">
 
-<div>
-
 #### 💚 Open Source License
-<strong>GPL-3.0</strong>
+**GPL-3.0**
 
 Biograph, ERPNext, and Frappe Framework are all licensed under GPL-3.0:
 
@@ -1267,10 +1123,6 @@ Biograph, ERPNext, and Frappe Framework are all licensed under GPL-3.0:
 - ✅ No vendor lock-in
 
 **This means: $0 software licensing costs, forever.**
-
-</div>
-
-<div>
 
 #### 💰 Total Cost of Ownership
 
@@ -1297,17 +1149,13 @@ Your only costs are:
 - Annual maintenance: 18-22% of license cost
 - Upgrade fees: $$$
 
-</div>
-
-<div>
-
 #### 🚀 Hosting Options
 
 **Frappe Cloud** (Managed)
 - From $10/user/month
 - Automatic updates
 - Backups included
-- 99.9% uptime SLA
+- 99.9% uptime
 - SSL included
 - [frappecloud.com](https://frappecloud.com)
 
@@ -1324,8 +1172,6 @@ Your only costs are:
 - Use existing infrastructure
 - Lowest cost option
 - You manage everything
-
-</div>
 
 </div>
 

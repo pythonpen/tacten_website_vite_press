@@ -19,7 +19,10 @@ defineProps({
             <span v-html="item"></span>
           </li>
         </ul>
-        <a v-if="feature.link" :href="feature.link" class="link">{{ feature.linkText || 'Learn more' }}</a>
+        <div class="links">
+          <a v-if="feature.link" :href="feature.link" class="link">{{ feature.linkText || 'Learn more' }}</a>
+          <a v-if="feature.secondaryLink" :href="feature.secondaryLink" class="link secondary">{{ feature.secondaryLinkText || 'Learn more' }}</a>
+        </div>
       </div>
       <div class="image-container">
         <img :src="feature.image" :alt="feature.title" class="image" />
@@ -100,16 +103,24 @@ defineProps({
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
 }
 
+.links {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+  align-items: center;
+}
+
 .link {
   display: inline-block;
   color: var(--vp-c-brand-1);
   font-weight: 600;
-  text-decoration: none;
-  margin-top: 1rem;
+  text-decoration: underline;
 }
 
-.link:hover {
+.link.secondary {
+  /* Inherits brand color from .link */
   text-decoration: underline;
+  font-weight: 500;
 }
 
 @media (max-width: 768px) {

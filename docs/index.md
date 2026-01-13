@@ -18,6 +18,8 @@ sidebar: false
     ],
     link: '/expertise',
     linkText: 'From concept to compliant production—without slow, risky implementation cycles.',
+    secondaryLink: '/products/biograph',
+    secondaryLinkText: 'Check out our Product: Biograph',
     image: '/health.svg'
   },
   {

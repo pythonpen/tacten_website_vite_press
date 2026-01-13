@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import './biograph.css';
 
 
 :root {
@@ -15,29 +16,7 @@
   height: 48px;
 }
 
-/* Hide sidebar toggle on home page */
-.VPNavBar.home .sidebar-toggle {
-  display: none !important;
-}
-
-
-/* Custom Sidebar Toggle Styles */
+/* Custom Sidebar Toggle Styles - Removed */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@media (min-width: 960px) {
-  .close-sidebar .VPSidebar {
-    display: none !important;
-  }
-
-  .close-sidebar .VPContent {
-    padding-left: 0 !important;
-  }
-
-  .close-sidebar .VPContent .container {
-    max-width: 1104px;
-    /* Standard readable width, adjustable */
-    margin: 0 auto;
-  }
-}
