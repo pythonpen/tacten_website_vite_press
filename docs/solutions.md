@@ -1,7 +1,44 @@
 ---
-sidebar: false
-aside: false
-pageClass: solutions-page
+layout: home
+title: Healthcare Solutions & Use Cases
+description: Tailored Biograph solutions for Hospitals, Clinics, Labs, and Digital Health Providers
+hero:
+  name: Solutions
+  text: Real-World Healthcare Workflows
+  tagline: See how Biograph handles complete patient journeys with integrated clinical and business operations per specialty.
+  actions:
+    - theme: brand
+      text: View Workflows
+      link: #real-world-healthcare-workflow
+    - theme: alt
+      text: Get Started
+      link: /docs/getting-started
+
+features:
+  - icon: 🏥
+    title: Multi-Specialty Hospitals
+    details: Complete Enterprise Healthcare Management for large hospitals. Unified patient/financial data, cross-department analytics, and centralized procurement.
+  - icon: 🏪
+    title: Clinic Chains & Networks
+    details: Centralized patient records, shared inventory, and group purchasing across multiple locations with location-wise P&L reports.
+  - icon: 🔬
+    title: Diagnostic Centers & Labs
+    details: High-volume test processing with device integration, automatic billing, and online report portals for standalone labs.
+  - icon: 🩻
+    title: Imaging & Radiology Centers
+    details: DICOM-compliant RIS and PACS integration with radiologist scheduling and remote reading support.
+  - icon: 🏃
+    title: Specialty Treatment Centers
+    details: Focused clinical programs for physiotherapy, oncology, dialysis, and fertility clinics with recurring treatment scheduling.
+  - icon: 💊
+    title: Pharmacy Chains
+    details: Multi-store retail pharmacy management with POS, inventory optimization, and prescription tracking.
+  - icon: 🏗️
+    title: Healthcare Startups
+    details: API-first architecture for digital health innovators building telemedicine, remote monitoring, and health tech products.
+  - icon: 🌍
+    title: NGOs & Public Health
+    details: Cost-effective, offline-capable systems for community health programs, mobile clinics, and vaccination campaigns.
 ---
 
 # Solutions
@@ -82,181 +119,6 @@ EMERGENCY DEPARTMENT PATIENT
 
 ---
 
-## Use Cases & Solutions
+## Detailed Feature Coverage?
 
-<div class="use-cases-grid">
-
-<div>
-
-### 🏥 Multi-Specialty Hospitals
-**Complete Enterprise Healthcare Management**
-
-Perfect for large hospitals needing:
-- Multiple departments and service units
-- Complex billing scenarios
-- Large pharmacy and supply chain
-- Extensive HR management (hundreds of staff)
-- Research and teaching programs
-- Multiple locations/branches
-
-**What You Get:**
-- Full clinical + ERP in one platform
-- Unified patient and financial data
-- Cross-departmental analytics
-- Centralized procurement
-- Consolidated reporting
-
-</div>
-
-<div>
-
-### 🏪 Clinic Chains & Networks
-**Multi-Location Healthcare**
-
-Ideal for clinic groups requiring:
-- Centralized patient records
-- Shared inventory across locations
-- Group purchasing and contracts
-- Franchise management
-- Brand consistency
-- Central billing and collections
-
-**What You Get:**
-- Multi-tenant architecture
-- Location-wise P&L reports
-- Inter-branch transfers
-- Centralized control with local autonomy
-- Standardized workflows
-
-</div>
-
-<div>
-
-### 🔬 Diagnostic Centers & Labs
-**Laboratory Operations Focus**
-
-Tailored for standalone labs needing:
-- High-volume test processing
-- Device integration (analyzers)
-- B2B and B2C workflows
-- Home collection management
-- Report delivery automation
-- Reference lab partnerships
-
-**What You Get:**
-- Comprehensive LIS module
-- Automatic billing from results
-- Online report portal
-- Collection center management
-- Referral doctor tracking (CRM)
-
-</div>
-
-<div>
-
-### 🩻 Imaging & Radiology Centers
-**Specialized Imaging Workflows**
-
-Designed for radiology centers with:
-- Multiple modalities
-- PACS integration
-- Radiologist scheduling
-- Remote reading support
-- Quality assurance needs
-- Equipment maintenance tracking
-
-**What You Get:**
-- DICOM-compliant RIS
-- Vendor-neutral PACS integration
-- Template-based reporting
-- Film management
-- Equipment tracking (Assets)
-
-</div>
-
-<div>
-
-### 🏃 Specialty Treatment Centers
-**Focused Clinical Programs**
-
-For specialized facilities like:
-- Physiotherapy clinics
-- Oncology day care
-- Dialysis centers
-- Fertility clinics
-- Wellness centers
-
-**What You Get:**
-- Specialty-specific modules
-- Recurring treatment scheduling
-- Protocol-based care plans
-- Outcome tracking
-- Insurance claim management
-
-</div>
-
-<div>
-
-### 💊 Pharmacy Chains
-**Retail Pharmacy Management**
-
-For pharmacy businesses needing:
-- Multi-store management
-- POS integration
-- Inventory optimization
-- Prescription tracking
-- Customer loyalty programs
-- Supplier management
-
-**What You Get:**
-- Full retail capabilities (ERPNext)
-- Expiry and batch management
-- E-commerce integration
-- Accounting and taxation
-- CRM for customers
-
-</div>
-
-<div>
-
-### 🏗️ Healthcare Startups
-**Modern Digital Health Platforms**
-
-For digital health innovators building:
-- Telemedicine platforms
-- Health tech SaaS products
-- Care coordination platforms
-- Remote patient monitoring
-- Health insurance tech
-
-**What You Get:**
-- API-first architecture
-- Rapid customization (low-code)
-- Modern tech stack
-- Scalable infrastructure
-- Portal framework
-
-</div>
-
-<div>
-
-### 🌍 NGOs & Public Health
-**Community Healthcare Programs**
-
-For non-profit organizations running:
-- Community health programs
-- Mobile clinics
-- Public health initiatives
-- Vaccination campaigns
-- Health education programs
-
-**What You Get:**
-- Cost-effective (open source)
-- Offline-capable design
-- Simple data collection forms
-- Reporting for donors
-- Project management tools
-
-</div>
-
-</div>
+Check out our [Biograph Product Page](/products/biograph) for a deep dive into specific modules and capabilities.

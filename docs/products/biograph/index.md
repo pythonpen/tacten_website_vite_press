@@ -1,38 +1,39 @@
 ---
+layout: home
 title: Biograph - Open Source Hospital Information System
 description: The only open-source HIMS that gives you clinical workflows AND complete business operations - powered by the Frappe/ERPNext ecosystem
-aside: false
-sidebar: false
-pageClass: biograph-page
+hero:
+  name: Biograph
+  text: Hospital Information System with Enterprise ERP Power, Built-In
+  tagline: The only open-source HIMS that gives you clinical workflows AND complete business operations - powered by the Frappe/ERPNext ecosystem
+  image:
+    src: /biograph-1.webp
+    alt: Biograph Platform Interface
+  actions:
+    - theme: brand
+      text: Get Started
+      link: /docs/getting-started
+    - theme: alt
+      text: View Demo
+      link: https://marley.frappe.cloud
+    - theme: alt
+      text: GitHub
+      link: https://github.com/Tacten/biograph
+
+features:
+  - icon: 🏥
+    title: Complete Clinical Workflows
+    details: FHIR-compliant patient management, Lab & Radiology (DICOM, LOINC), Clinical Procedures, Medication Management, and specialty modules
+  - icon: 🏢
+    title: Full ERP Integration
+    details: Accounting, Billing, Inventory, HR, CRM, and Asset Management through ERPNext - no additional licenses needed
+  - icon: 🔧
+    title: Low-Code Platform
+    details: Built on Frappe framework - customize forms, workflows, and reports without expensive developers
+  - icon: 🌍
+    title: Thriving Open Source Community
+    details: Join 50,000+ community members, access 300+ modules, and leverage battle-tested technology used by 10,000+ organizations
 ---
-
-<BiographHero />
-
-<div class="grid grid-cols-1 md:grid-cols-2 gap-8 my-16 max-w-6xl mx-auto px-6">
-  <div class="bg-slate-50 dark:bg-slate-800 p-6 rounded-xl shadow-sm border border-slate-200 dark:border-slate-700">
-    <div class="text-4xl mb-4">🏥</div>
-    <h3 class="text-xl font-bold mb-2">Complete Clinical Workflows</h3>
-    <p class="text-slate-600 dark:text-slate-400">FHIR-compliant patient management, Lab & Radiology (DICOM, LOINC), Clinical Procedures, Medication Management, and specialty modules</p>
-  </div>
-
-  <div class="bg-slate-50 dark:bg-slate-800 p-6 rounded-xl shadow-sm border border-slate-200 dark:border-slate-700">
-    <div class="text-4xl mb-4">🏢</div>
-    <h3 class="text-xl font-bold mb-2">Full ERP Integration</h3>
-    <p class="text-slate-600 dark:text-slate-400">Accounting, Billing, Inventory, HR, CRM, and Asset Management through ERPNext - no additional licenses needed</p>
-  </div>
-
-  <div class="bg-slate-50 dark:bg-slate-800 p-6 rounded-xl shadow-sm border border-slate-200 dark:border-slate-700">
-    <div class="text-4xl mb-4">🔧</div>
-    <h3 class="text-xl font-bold mb-2">Low-Code Platform</h3>
-    <p class="text-slate-600 dark:text-slate-400">Built on Frappe framework - customize forms, workflows, and reports without expensive developers</p>
-  </div>
-
-  <div class="bg-slate-50 dark:bg-slate-800 p-6 rounded-xl shadow-sm border border-slate-200 dark:border-slate-700">
-    <div class="text-4xl mb-4">🌍</div>
-    <h3 class="text-xl font-bold mb-2">Thriving Open Source Community</h3>
-    <p class="text-slate-600 dark:text-slate-400">Join 50,000+ community members, access 300+ modules, and leverage battle-tested technology used by 10,000+ organizations</p>
-  </div>
-</div>
 
 # Trusted by Healthcare Organizations Worldwide
 
