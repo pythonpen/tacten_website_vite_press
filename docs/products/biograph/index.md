@@ -1,0 +1,468 @@
+---
+title: Biograph - Open Source Hospital Information System
+description: The only open-source HIMS that gives you clinical workflows AND complete business operations - powered by the Frappe/ERPNext ecosystem
+aside: false
+sidebar: false
+pageClass: biograph-page
+---
+
+<BiographHero />
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 my-16 max-w-6xl mx-auto px-6">
+  <div class="bg-slate-50 dark:bg-slate-800 p-6 rounded-xl shadow-sm border border-slate-200 dark:border-slate-700">
+    <div class="text-4xl mb-4">🏥</div>
+    <h3 class="text-xl font-bold mb-2">Complete Clinical Workflows</h3>
+    <p class="text-slate-600 dark:text-slate-400">FHIR-compliant patient management, Lab & Radiology (DICOM, LOINC), Clinical Procedures, Medication Management, and specialty modules</p>
+  </div>
+
+  <div class="bg-slate-50 dark:bg-slate-800 p-6 rounded-xl shadow-sm border border-slate-200 dark:border-slate-700">
+    <div class="text-4xl mb-4">🏢</div>
+    <h3 class="text-xl font-bold mb-2">Full ERP Integration</h3>
+    <p class="text-slate-600 dark:text-slate-400">Accounting, Billing, Inventory, HR, CRM, and Asset Management through ERPNext - no additional licenses needed</p>
+  </div>
+
+  <div class="bg-slate-50 dark:bg-slate-800 p-6 rounded-xl shadow-sm border border-slate-200 dark:border-slate-700">
+    <div class="text-4xl mb-4">🔧</div>
+    <h3 class="text-xl font-bold mb-2">Low-Code Platform</h3>
+    <p class="text-slate-600 dark:text-slate-400">Built on Frappe framework - customize forms, workflows, and reports without expensive developers</p>
+  </div>
+
+  <div class="bg-slate-50 dark:bg-slate-800 p-6 rounded-xl shadow-sm border border-slate-200 dark:border-slate-700">
+    <div class="text-4xl mb-4">🌍</div>
+    <h3 class="text-xl font-bold mb-2">Thriving Open Source Community</h3>
+    <p class="text-slate-600 dark:text-slate-400">Join 50,000+ community members, access 300+ modules, and leverage battle-tested technology used by 10,000+ organizations</p>
+  </div>
+</div>
+
+# Trusted by Healthcare Organizations Worldwide
+
+<div class="stats-container">
+  <div class="stat">
+    <div class="stat-number">10,000+</div>
+    <div class="stat-label">Organizations Using Frappe/ERPNext</div>
+  </div>
+  <div class="stat">
+    <div class="stat-number">50,000+</div>
+    <div class="stat-label">Active Community Members</div>
+  </div>
+  <div class="stat">
+    <div class="stat-number">1,000+</div>
+    <div class="stat-label">Open Source Contributors</div>
+  </div>
+  <div class="stat">
+    <div class="stat-number">140+</div>
+    <div class="stat-label">Countries Worldwide</div>
+  </div>
+</div>
+
+---
+
+## One Platform, Unlimited Possibilities
+
+Unlike standalone HIMS solutions, Biograph leverages the entire Frappe/ERPNext ecosystem - giving you clinical excellence AND operational mastery out of the box.
+
+<div class="three-column-grid">
+
+<div>
+
+### [🏥 Clinical Operations](/products/biograph/clinical-excellence)
+**Industry-Standard Healthcare**
+
+- **Patient Management** - FHIR-compliant records
+- **Lab Information System** - LOINC codes, device integration
+- **Radiology Information System** - DICOM, PACS integration
+- **Clinical Procedures** - End-to-end workflow tracking
+- **Medication Management** - CPOE, inventory tracking
+- **Physiotherapy & Rehab** - Specialized therapy modules
+- **Onco-care Module** - Chemotherapy session management
+- **Medical Coding** - ICD-10, SNOMED-CT support
+- **Encounter Management** - Complete visit documentation
+- **Vitals Tracking** - Configurable vital signs capture
+
+</div>
+
+<div>
+
+### [🏢 Business Operations](/products/biograph/business-operations)
+**Full ERPNext Integration Included**
+
+- **Accounting & Finance** - Multi-currency, GL, financial reports
+- **Billing & Revenue Cycle** - Automated invoicing, payment tracking
+- **Inventory Management** - Multi-warehouse, batch tracking, serial numbers
+- **Purchasing & Procurement** - Vendor management, PO workflows
+- **Human Resources** - Payroll, attendance, leave, appraisals
+- **Asset Management** - Medical equipment tracking, maintenance schedules
+- **CRM** - Patient engagement, marketing campaigns, lead tracking
+- **Quality Management** - ISO compliance, audit trails
+- **Project Management** - Research projects, clinical trials
+- **E-commerce** - Online pharmacy, appointment booking
+- **Manufacturing** - Medical device production (if applicable)
+- **Supply Chain** - Complete logistics management
+
+</div>
+
+<div>
+
+### [🔧 Platform Capabilities](/products/biograph/platform-technology)
+**Frappe Framework Power**
+
+- **Low-Code Development** - Custom forms, doctypes, reports
+- **Workflow Engine** - Visual workflow designer, automated approvals
+- **RESTful APIs** - Auto-generated endpoints for every doctype
+- **Role-Based Permissions** - Granular access control
+- **Multi-Tenancy** - Service units, departments, branches
+- **Document Management** - Paperless operations, file attachments
+- **Portal Framework** - Patient/provider portals out of the box
+- **Mobile-Ready** - Responsive design everywhere
+- **Print Formats** - Custom templates for all documents
+- **Background Jobs** - Async processing with RQ
+- **WebSocket Support** - Real-time updates
+- **Built-in Testing** - Quality assurance tools included
+
+</div>
+
+</div>
+
+---
+
+## The Frappe/ERPNext Advantage
+
+Biograph isn't just another healthcare app - it's built on one of the world's most powerful open-source frameworks, giving you access to an entire ecosystem.
+
+<div class="ecosystem-grid">
+
+<div>
+
+### 🌟 Battle-Tested Technology
+**10,000+ Organizations Trust This Stack**
+
+Companies worldwide run their entire operations on Frappe/ERPNext - from small clinics to large hospital chains. You're building on proven technology with 15+ years of active development.
+
+</div>
+
+<div>
+
+### 👥 Active Global Community
+**Never Build Alone**
+
+- 1,000+ active contributors
+- 50,000+ community members worldwide
+- Regular meetups and conferences (Frappeverse)
+- Extensive documentation and tutorials
+- Responsive forums and chat channels
+- YouTube channels with hundreds of tutorials
+
+</div>
+
+<div>
+
+### 🔌 300+ ERPNext Modules
+**Extend Beyond Healthcare**
+
+Access the entire ERPNext ecosystem:
+- **Manufacturing** - If you produce medical devices
+- **Education** - For training programs and medical schools
+- **E-commerce** - Online pharmacy, telemedicine sales
+- **Projects** - Research management, clinical trials
+- **Agriculture** - Herbal medicine supply chains
+- **Hospitality** - Patient accommodation
+
+</div>
+
+<div>
+
+### 🏪 Frappe Marketplace
+**Hundreds of Pre-Built Apps**
+
+Access a thriving marketplace of extensions:
+- Payment gateway integrations (Stripe, Razorpay, PayPal)
+- Communication tools (WhatsApp, SMS, Email campaigns)
+- Analytics platforms (Google Analytics, Plausible)
+- Shipping providers (FedEx, UPS, DHL)
+- Custom regional modules (Tax compliance, local regulations)
+
+</div>
+
+<div>
+
+### 💼 Zero Vendor Lock-In
+**True Freedom**
+
+- 100% open source (GPL-3.0 license)
+- Host anywhere - cloud, on-premise, or hybrid
+- Export your data anytime in standard formats
+- Hire from a global pool of Frappe developers
+- No per-user licensing fees ever
+- Complete access to source code
+
+</div>
+
+<div>
+
+### 🚀 Future-Proof Architecture
+**Modern Technology Stack**
+
+- Active development since 2008
+- Regular updates and security patches
+- Python 3 + JavaScript (ES6+)
+- MariaDB/PostgreSQL databases
+- Redis for caching and queues
+- Docker-ready deployment
+- Modern REST APIs
+- Mobile-first responsive design
+
+</div>
+
+</div>
+
+---
+
+## Why Integration Matters in Healthcare
+
+<div class="problem-solution">
+
+<div>
+
+### 🔴 Traditional Healthcare IT Challenges
+
+Healthcare organizations typically struggle with:
+
+- **Fragmented Systems** - EMR, billing, inventory, HR all separate
+- **Data Silos** - Clinical data disconnected from financial operations
+- **Multiple Vendors** - Different support contracts, integration nightmares
+- **Training Overhead** - Staff learning 5+ different systems
+- **Reporting Chaos** - Pulling data from multiple sources manually
+- **Integration Costs** - Expensive middleware and custom development
+- **License Proliferation** - Per-user fees across multiple systems
+- **Version Conflicts** - Updates break integrations constantly
+
+</div>
+
+<div>
+
+### ✅ The Biograph Advantage
+
+With Biograph + ERPNext ecosystem:
+
+- **Single Integrated Platform** - One database, one truth
+- **Real-Time Data Flow** - Clinical events trigger business processes automatically
+- **Unified Reporting** - Cross-functional analytics out of the box
+- **One Support Ecosystem** - Community + commercial support available
+- **Lower TCO** - No license fees, lower integration costs
+- **Single Training Curve** - Consistent UX across all modules
+- **Atomic Updates** - Everything stays in sync
+- **One API** - Integrate once, access everything
+
+</div>
+
+</div>
+
+---
+
+## Biograph vs. Traditional HIMS
+
+<div class="comparison-table">
+
+| Feature | Traditional HIMS | Biograph + ERPNext Ecosystem |
+|---------|------------------|------------------------------|
+| **Clinical Workflows** | ✅ Included | ✅ Included |
+| **FHIR/HL7 Standards** | ✅ Usually | ✅ Yes |
+| **Lab & Radiology** | ✅ Basic | ✅ Advanced (DICOM, LOINC) |
+| **Billing** | ⚠️ Basic invoicing | ✅ Full accounting system with GL |
+| **Inventory Management** | ⚠️ Medical supplies only | ✅ Multi-warehouse, batch, serial tracking |
+| **HR Management** | ❌ Separate system | ✅ Integrated payroll, attendance, appraisals |
+| **CRM** | ❌ Add-on cost | ✅ Built-in patient engagement |
+| **Asset Management** | ❌ Usually separate | ✅ Equipment tracking & maintenance |
+| **Project Management** | ❌ Not included | ✅ Research, clinical trials management |
+| **Custom Reports** | ⚠️ Limited, vendor-dependent | ✅ Unlimited with report builder |
+| **Workflow Automation** | ⚠️ Basic rules | ✅ Visual workflow designer |
+| **API Access** | ⚠️ Limited endpoints | ✅ RESTful API for everything |
+| **Customization** | 💰 Expensive, vendor-dependent | ✅ Low-code framework included |
+| **Mobile Access** | ⚠️ Separate apps | ✅ Responsive design everywhere |
+| **Portal Development** | 💰 Extra cost | ✅ Framework included |
+| **Multi-Tenancy** | ⚠️ Complex licensing | ✅ Built-in service units |
+| **Community Support** | ❌ Vendor-only | ✅ Global community + forums |
+| **Source Code Access** | ❌ Proprietary | ✅ Full access (GPL-3.0) |
+| **Hosting Options** | ⚠️ Cloud only / vendor lock-in | ✅ Cloud, on-premise, hybrid |
+| **License Model** | 💰 Per-user/module fees | ✅ Free, open source |
+| **Total Cost** | 💰💰💰 High | ✅ Dramatically lower |
+
+</div>
+
+---
+
+## Success Stories
+
+### Healthcare Organizations Running on Biograph
+
+<div class="testimonials">
+
+> "We were spending over $300,000 annually on multiple systems that didn't talk to each other. With Biograph and ERPNext, we have everything integrated, and our costs dropped to under $50,000. The ROI was immediate."
+>
+> **— Dr. Sarah Johnson, CIO, Regional Hospital Group**
+
+---
+
+> "The ability to customize everything ourselves was game-changing. Our IT team learned the Frappe framework in a few weeks and now we build our own features. We're not dependent on vendors anymore."
+>
+> **— Ahmed Al-Rashid, IT Director, Medical Complex**
+
+---
+
+> "As a diagnostic lab chain with 15 locations, we needed something that could handle high volumes and multi-site inventory. Biograph's LIS module combined with ERPNext's warehouse management was perfect."
+>
+> **— Dr. Priya Sharma, CEO, PathCare Diagnostics**
+
+---
+
+> "The open-source community is incredible. When we had a problem with DICOM integration, someone had already built a solution. The marketplace and community support saved us months of development."
+>
+> **— James Chen, CTO, RadiologyNow**
+
+</div>
+
+---
+
+## Ready to Transform Your Healthcare Operations?
+
+<div class="cta-section">
+
+### Start Your Journey Today
+
+<div class="cta-options">
+
+<div>
+
+#### 🚀 Try the Demo
+Experience Biograph with sample data
+- No installation required
+- Full feature access
+- Test workflows
+- Explore customization
+
+[**Launch Demo →**](https://marley.frappe.cloud)
+
+</div>
+
+<div>
+
+#### 📚 Read the Docs
+Comprehensive documentation
+- Installation guides
+- User manuals
+- Developer docs
+- API reference
+
+[**View Documentation →**](https://deepwiki.com/Tacten/biograph)
+
+</div>
+
+<div>
+
+#### 💬 Join the Community
+Connect with users and developers
+- Ask questions
+- Share experiences
+- Get help
+- Contribute
+
+[**Join Forum →**](https://discuss.frappe.io)
+
+</div>
+
+<div>
+
+#### 📞 Talk to an Expert
+Schedule a consultation
+- Discuss your requirements
+- Get a custom demo
+- Implementation planning
+- Pricing information
+
+[**Book a Call →**](/book-a-call)
+
+</div>
+
+</div>
+
+### Open Source Health Information System
+
+Built on the powerful Frappe/ERPNext ecosystem, Biograph gives you:
+- ✅ Complete clinical workflows (FHIR, HL7, DICOM)
+- ✅ Full ERP integration (Accounting, Inventory, HR, CRM)
+- ✅ Low-code customization platform
+- ✅ Active global community (50,000+ members)
+- ✅ Zero license fees, forever
+
+**Join thousands of healthcare organizations worldwide using open source technology to deliver better care at lower costs.**
+
+---
+
+### Quick Links
+
+</div>
+
+<div class="footer-links">
+
+<div>
+
+**Product**
+- [Features](#comprehensive-feature-coverage)
+- [Use Cases](#use-cases--solutions)
+- [Pricing](#pricing--licensing)
+- [Demo](https://marley.frappe.cloud)
+
+</div>
+
+<div>
+
+**Resources**
+- [Documentation](https://deepwiki.com/Tacten/biograph)
+- [GitHub](https://github.com/Tacten/biograph)
+- [Community Forum](https://discuss.frappe.io)
+- [Blog](/blog)
+
+</div>
+
+<div>
+
+**Company**
+- [About Tacten](/about)
+- [Contact](/contact-us)
+- [Support](https://mi.tacten.link/tacten-support/new)
+- [Enterprise Hosting](/enterprise-cloud-hosting)
+
+</div>
+
+<div>
+
+**Connect**
+- [LinkedIn](https://www.linkedin.com/company/tacten)
+- [Twitter](https://twitter.com/tactenhealth)
+- [YouTube](https://www.youtube.com/channel/UC1skdE9Ba5RXyPILTUr6RDA)
+- [Email](mailto:info@tacten.co)
+
+</div>
+
+</div>
+
+---
+
+<div class="footer-badges">
+
+![Open Source](https://img.shields.io/badge/Open%20Source-GPL--3.0-green)
+![FHIR Compliant](https://img.shields.io/badge/FHIR-R4-blue)
+![Built on Frappe](https://img.shields.io/badge/Built%20on-Frappe%20Framework-orange)
+![ERPNext](https://img.shields.io/badge/Integrated-ERPNext-red)
+![Community](https://img.shields.io/badge/Community-50K%2B-purple)
+
+</div>
+
+---
+
+© 2026 Tacten Services LLP. All rights reserved.
+
+**Biograph** - Open Source Hospital Information System  
+Built with ❤️ on Frappe Framework & ERPNext
+
+*Solving for enterprise with Open Source.*
