@@ -21,6 +21,16 @@
 }
 
 /* ============================================
+   VITEPRESS HOME LAYOUT OVERRIDES
+   ============================================ */
+/* Add spacing for h1 after features section */
+.vp-doc h1,
+.VPContent h1 {
+    margin-top: var(--spacing-xl);
+    margin-bottom: var(--spacing-md);
+}
+
+/* ============================================
    STATS CONTAINER
    ============================================ */
 .stats-container {
@@ -105,6 +115,103 @@
     color: var(--bio-primary);
     font-weight: bold;
 }
+
+/* ============================================
+   ZIGZAG SECTION
+   ============================================ */
+.zigzag-section {
+    margin: var(--spacing-lg) 0;
+}
+
+.zigzag-item {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: var(--spacing-lg);
+    align-items: center;
+    margin: var(--spacing-xl) 0;
+    padding: var(--spacing-md);
+    background: var(--vp-c-bg-soft);
+    border: 2px solid var(--bio-border);
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.zigzag-item:hover {
+    border-color: var(--bio-primary);
+    box-shadow: 0 10px 30px rgba(16, 185, 129, 0.1);
+    transform: translateY(-4px);
+}
+
+.zigzag-item.zigzag-reverse {
+    grid-template-columns: 1fr 2fr;
+}
+
+.zigzag-item.zigzag-reverse .zigzag-content {
+    order: 2;
+}
+
+.zigzag-item.zigzag-reverse .zigzag-image {
+    order: 1;
+}
+
+.zigzag-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: var(--spacing-sm);
+    color: var(--vp-c-text-1);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.zigzag-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.zigzag-content li {
+    padding: 0.5rem 0;
+    color: var(--vp-c-text-2);
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.zigzag-content li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--bio-primary);
+    font-weight: bold;
+}
+
+.zigzag-image {
+    font-size: 8rem;
+    text-align: center;
+    opacity: 0.3;
+    user-select: none;
+}
+
+/* Responsive design for zigzag */
+@media (max-width: 768px) {
+
+    .zigzag-item,
+    .zigzag-item.zigzag-reverse {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+
+    .zigzag-item.zigzag-reverse .zigzag-content {
+        order: 1;
+    }
+
+    .zigzag-item.zigzag-reverse .zigzag-image {
+        order: 2;
+    }
+
+    .zigzag-image {
+        font-size: 4rem;
+    }
+}
+
 
 /* ============================================
    ECOSYSTEM GRID
@@ -216,29 +323,58 @@
     margin: var(--spacing-lg) 0;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
 }
 
 .comparison-table table {
-    width: 100%;
+    display: table !important;
+    width: 100% !important;
     border-collapse: collapse;
     background: var(--vp-c-bg-soft);
+}
+
+/* Hide any extra columns beyond the 3rd */
+.comparison-table th:nth-child(n+4),
+.comparison-table td:nth-child(n+4) {
+    display: none;
 }
 
 .comparison-table th {
     background: linear-gradient(135deg, var(--bio-primary) 0%, #059669 100%);
     color: white;
-    padding: 1rem;
+    padding: 1.25rem 1rem;
     text-align: left;
     font-weight: 600;
     position: sticky;
     top: 0;
     z-index: 10;
+    font-size: 1.05rem;
+}
+
+/* Column widths - using percentages for responsive layout */
+.comparison-table th:first-child,
+.comparison-table td:first-child {
+    width: 22%;
+    min-width: 150px;
+}
+
+.comparison-table th:nth-child(2),
+.comparison-table td:nth-child(2) {
+    width: 39%;
+    min-width: 200px;
+}
+
+.comparison-table th:nth-child(3),
+.comparison-table td:nth-child(3) {
+    width: 39%;
+    min-width: 200px;
 }
 
 .comparison-table td {
     padding: 1rem;
     border-bottom: 1px solid var(--bio-border);
-    vertical-align: top;
+    vertical-align: middle;
+    line-height: 1.6;
 }
 
 .comparison-table tr:nth-child(even) {
@@ -262,6 +398,18 @@
 .comparison-table td:nth-child(3) {
     color: var(--bio-primary);
     font-weight: 500;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .comparison-table {
+        font-size: 0.85rem;
+    }
+
+    .comparison-table th,
+    .comparison-table td {
+        padding: 0.75rem 0.5rem;
+    }
 }
 
 /* ============================================
@@ -801,7 +949,7 @@
    CTA SECTION
    ============================================ */
 .cta-section {
-    background: linear-gradient(135deg, var(--bio-primary) 0%, #059669 100%);
+    background: linear-gradient(135deg, #4A90E2 0%, #357ABD 100%);
     color: white;
     padding: var(--spacing-xl) var(--spacing-md);
     border-radius: 16px;
@@ -851,7 +999,7 @@
 .cta-options a {
     display: inline-block;
     background: white;
-    color: var(--bio-primary);
+    color: #357ABD;
     padding: 0.75rem 1.5rem;
     border-radius: 8px;
     text-decoration: none;
@@ -977,4 +1125,30 @@ html {
 .ecosystem-grid>div,
 .use-cases-grid>div {
     animation: fadeInUp 0.6s ease-out;
+}
+
+/* ============================================
+   SECTION HEADERS
+   ============================================ */
+.biograph-page h1 {
+    margin-top: var(--spacing-xl);
+    margin-bottom: var(--spacing-md);
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--bio-dark);
+    line-height: 1.2;
+}
+
+.biograph-page h2 {
+    margin-top: var(--spacing-lg);
+    margin-bottom: var(--spacing-md);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--bio-dark);
+    line-height: 1.3;
+}
+
+.biograph-page h3 {
+    margin-top: var(--spacing-md);
+    margin-bottom: var(--spacing-sm);
 }

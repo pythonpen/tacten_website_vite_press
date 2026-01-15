@@ -35,6 +35,7 @@ features:
     details: Join 50,000+ community members, access 300+ modules, and leverage battle-tested technology used by 10,000+ organizations
 ---
 
+
 # Trusted by Healthcare Organizations Worldwide
 
 <div class="stats-container">
@@ -56,18 +57,15 @@ features:
   </div>
 </div>
 
----
-
 ## One Platform, Unlimited Possibilities
 
 Unlike standalone HIMS solutions, Biograph leverages the entire Frappe/ERPNext ecosystem - giving you clinical excellence AND operational mastery out of the box.
 
-<div class="three-column-grid">
+<Tabs>
 
-<div>
+<Tab title="🏥 Clinical Operations">
 
-### [🏥 Clinical Operations](/products/biograph/clinical-excellence)
-**Industry-Standard Healthcare**
+### Industry-Standard Healthcare
 
 - **Patient Management** - FHIR-compliant records
 - **Lab Information System** - LOINC codes, device integration
@@ -80,12 +78,13 @@ Unlike standalone HIMS solutions, Biograph leverages the entire Frappe/ERPNext e
 - **Encounter Management** - Complete visit documentation
 - **Vitals Tracking** - Configurable vital signs capture
 
-</div>
+[Learn more about Clinical Excellence →](/products/biograph/clinical-excellence)
 
-<div>
+</Tab>
 
-### [🏢 Business Operations](/products/biograph/business-operations)
-**Full ERPNext Integration Included**
+<Tab title="🏢 Business Operations">
+
+### Full ERPNext Integration Included
 
 - **Accounting & Finance** - Multi-currency, GL, financial reports
 - **Billing & Revenue Cycle** - Automated invoicing, payment tracking
@@ -100,12 +99,13 @@ Unlike standalone HIMS solutions, Biograph leverages the entire Frappe/ERPNext e
 - **Manufacturing** - Medical device production (if applicable)
 - **Supply Chain** - Complete logistics management
 
-</div>
+[Learn more about Business Operations →](/products/biograph/business-operations)
 
-<div>
+</Tab>
 
-### [🔧 Platform Capabilities](/products/biograph/platform-technology)
-**Frappe Framework Power**
+<Tab title="🔧 Platform Capabilities">
+
+### Frappe Framework Power
 
 - **Low-Code Development** - Custom forms, doctypes, reports
 - **Workflow Engine** - Visual workflow designer, automated approvals
@@ -120,11 +120,11 @@ Unlike standalone HIMS solutions, Biograph leverages the entire Frappe/ERPNext e
 - **WebSocket Support** - Real-time updates
 - **Built-in Testing** - Quality assurance tools included
 
-</div>
+[Learn more about Platform Technology →](/products/biograph/platform-technology)
 
-</div>
+</Tab>
 
----
+</Tabs>
 
 ## The Frappe/ERPNext Advantage
 
@@ -216,8 +216,6 @@ Access a thriving marketplace of extensions:
 
 </div>
 
----
-
 ## Why Integration Matters in Healthcare
 
 <div class="problem-solution">
@@ -258,8 +256,6 @@ With Biograph + ERPNext ecosystem:
 
 </div>
 
----
-
 ## Biograph vs. Traditional HIMS
 
 <div class="comparison-table">
@@ -290,8 +286,6 @@ With Biograph + ERPNext ecosystem:
 
 </div>
 
----
-
 ## Success Stories
 
 ### Healthcare Organizations Running on Biograph
@@ -321,8 +315,6 @@ With Biograph + ERPNext ecosystem:
 > **— James Chen, CTO, RadiologyNow**
 
 </div>
-
----
 
 ## Ready to Transform Your Healthcare Operations?
 
@@ -396,8 +388,6 @@ Built on the powerful Frappe/ERPNext ecosystem, Biograph gives you:
 - ✅ Zero license fees, forever
 
 **Join thousands of healthcare organizations worldwide using open source technology to deliver better care at lower costs.**
-
----
 
 ### Quick Links
 
