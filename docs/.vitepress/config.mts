@@ -2,9 +2,19 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My Awesome Project",
-  description: "A VitePress Site",
+  title: "BioGraph - Open Source HIMS/EHR Platform",
+  description: "100% Open-Source Full-Spectrum Hospital Information Management System and Electronic Health Record Platform built on Frappe Framework and ERPNext ecosystem. Zero vendor lock-in, dramatically lower TCO.",
   ignoreDeadLinks: true,
+  head: [
+    ['meta', { name: 'keywords', content: 'HIMS, EHR, EMR, Hospital Information System, Electronic Health Record, Open Source Healthcare, Frappe, ERPNext, FHIR, HL7, DICOM, Healthcare IT' }],
+    ['meta', { name: 'author', content: 'Tacten Services LLP' }],
+    ['meta', { property: 'og:title', content: 'BioGraph - Open Source HIMS/EHR Platform' }],
+    ['meta', { property: 'og:description', content: '100% Open-Source Full-Spectrum Hospital Information Management System built on Frappe Framework and ERPNext ecosystem.' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:title', content: 'BioGraph - Open Source HIMS/EHR Platform' }],
+    ['meta', { name: 'twitter:description', content: '100% Open-Source Full-Spectrum Hospital Information Management System built on Frappe Framework and ERPNext ecosystem.' }],
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.svg',

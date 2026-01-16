@@ -1,23 +1,42 @@
 /* ============================================
    BIOGRAPH LANDING PAGE STYLES
+   Enterprise Healthcare Theme
    ============================================ */
 
-/* Root Variables */
+/* Root Variables - Enterprise Healthcare Color Palette */
 :root {
-    --bio-primary: #10b981;
-    /* Healthcare green */
-    --bio-secondary: #3b82f6;
-    /* Tech blue */
-    --bio-accent: #8b5cf6;
-    /* Purple */
-    --bio-dark: #1e293b;
-    --bio-light: #f8fafc;
-    --bio-border: #e2e8f0;
+    --bio-primary: #1E40AF;
+    /* Trust Blue - Primary */
+    --bio-primary-light: #3B82F6;
+    --bio-secondary: #10B981;
+    /* Wellness Green - Accent */
+    --bio-secondary-light: #34D399;
+    --bio-accent: #0055D4;
+    /* Alternative Trust Blue */
+    --bio-dark: #111827;
+    --bio-light: #F9FAFB;
+    --bio-border: #E5E7EB;
+    --bio-text: #111827;
+    --bio-text-muted: #4B5563;
+    --bio-text-secondary: #6B7280;
     --spacing-xs: 0.5rem;
     --spacing-sm: 1rem;
     --spacing-md: 2rem;
     --spacing-lg: 4rem;
     --spacing-xl: 6rem;
+}
+
+.dark {
+    --bio-primary: #60A5FA;
+    --bio-primary-light: #93C5FD;
+    --bio-secondary: #34D399;
+    --bio-secondary-light: #6EE7B7;
+    --bio-dark: #F1F5F9;
+    --bio-light: #0F172A;
+    --bio-border: #334155;
+    --bio-text: #F1F5F9;
+    --bio-text-muted: #CBD5E1;
+    --bio-text-secondary: #94A3B8;
 }
 
 /* ============================================

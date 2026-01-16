@@ -2,9 +2,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import './biograph.css';
 
-
 :root {
   --vp-font-family-base: "Inter", sans-serif;
+  
+  --vp-c-brand-1: #1E40AF;
+  --vp-c-brand-2: #2563EB;
+  --vp-c-brand-3: #3B82F6;
+  --vp-c-brand-soft: rgba(30, 64, 175, 0.14);
+  
+  --enterprise-primary: #1E40AF;
+  --enterprise-primary-light: #3B82F6;
+  --enterprise-accent: #10B981;
+  --enterprise-accent-light: #34D399;
+  --enterprise-bg: #FFFFFF;
+  --enterprise-bg-soft: #F9FAFB;
+  --enterprise-text: #111827;
+  --enterprise-text-muted: #4B5563;
+  --enterprise-text-secondary: #6B7280;
+  --enterprise-border: #E5E7EB;
+  
+  --vp-c-default-1: var(--vp-c-gray-1);
+  --vp-c-default-2: var(--vp-c-gray-2);
+  --vp-c-default-3: var(--vp-c-gray-3);
+  --vp-c-default-soft: var(--vp-c-gray-soft);
+}
+
+.dark {
+  --enterprise-bg: #0F172A;
+  --enterprise-bg-soft: #1E293B;
+  --enterprise-text: #F1F5F9;
+  --enterprise-text-muted: #CBD5E1;
+  --enterprise-text-secondary: #94A3B8;
+  --enterprise-border: #334155;
+  
+  --vp-c-brand-1: #60A5FA;
+  --vp-c-brand-2: #3B82F6;
+  --vp-c-brand-3: #2563EB;
 }
 
 :root {

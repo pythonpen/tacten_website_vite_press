@@ -6,6 +6,13 @@ sidebar: false
 
 <HeroSection />
 
+<SecurityTrustBar :items="[
+  { icon: 'shield', title: '100% Open Source', description: 'GPL-3.0 License' },
+  { icon: 'dollar', title: 'No Per-User Fees', description: 'Zero licensing costs' },
+  { icon: 'scale', title: 'Enterprise Scale', description: 'Proven across 10,000+ orgs' },
+  { icon: 'lock', title: 'Zero Vendor Lock-In', description: 'Host anywhere' }
+]" variant="gradient" />
+
 <ZigZagSection :features="[
   {
     title: 'Deep Healthcare IT Expertise. Delivered Fast.',

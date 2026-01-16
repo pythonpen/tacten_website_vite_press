@@ -1,14 +1,14 @@
 ---
 layout: home
-title: Biograph - Open Source Hospital Information System
-description: The only open-source HIMS that gives you clinical workflows AND complete business operations - powered by the Frappe/ERPNext ecosystem
+title: BioGraph - Open Source Hospital Information System
+description: 100% Open-Source Full-Spectrum HIMS/EHR Platform built on Frappe Framework and ERPNext ecosystem. Zero vendor lock-in, dramatically lower TCO.
 hero:
-  name: Biograph
-  text: Hospital Information System with Enterprise ERP Power, Built-In
-  tagline: The only open-source HIMS that gives you clinical workflows AND complete business operations - powered by the Frappe/ERPNext ecosystem
+  name: BioGraph
+  text: 100% Open-Source Full-Spectrum HIMS/EHR Platform
+  tagline: Enterprise-grade Hospital Information Management System built on the Frappe Framework and ERPNext ecosystem. Zero vendor lock-in, dramatically lower TCO, unlimited customization.
   image:
     src: /biograph-1.webp
-    alt: Biograph Platform Interface
+    alt: BioGraph Platform Interface
   actions:
     - theme: brand
       text: Get Started
@@ -35,27 +35,21 @@ features:
     details: Join 50,000+ community members, access 300+ modules, and leverage battle-tested technology used by 10,000+ organizations
 ---
 
+<IntegrationBadge :badges="[
+  { name: 'FHIR R4', description: 'Fast Healthcare Interoperability Resources', color: 'blue' },
+  { name: 'HL7', description: 'Health Level Seven International', color: 'green' },
+  { name: 'DICOM', description: 'Digital Imaging and Communications in Medicine', color: 'purple' },
+  { name: 'LOINC', description: 'Logical Observation Identifiers Names and Codes', color: 'orange' },
+  { name: 'ICD-10', description: 'International Classification of Diseases', color: 'red' },
+  { name: 'SNOMED-CT', description: 'Systematized Nomenclature of Medicine', color: 'teal' }
+]" title="Industry-Standard Compliance" />
 
-# Trusted by Healthcare Organizations Worldwide
-
-<div class="stats-container">
-  <div class="stat">
-    <div class="stat-number">10,000+</div>
-    <div class="stat-label">Organizations Using Frappe/ERPNext</div>
-  </div>
-  <div class="stat">
-    <div class="stat-number">50,000+</div>
-    <div class="stat-label">Active Community Members</div>
-  </div>
-  <div class="stat">
-    <div class="stat-number">1,000+</div>
-    <div class="stat-label">Open Source Contributors</div>
-  </div>
-  <div class="stat">
-    <div class="stat-number">140+</div>
-    <div class="stat-label">Countries Worldwide</div>
-  </div>
-</div>
+<StatCounter :stats="[
+  { value: '10,000+', label: 'Organizations Using Frappe/ERPNext' },
+  { value: '50,000+', label: 'Active Community Members' },
+  { value: '1,000+', label: 'Open Source Contributors' },
+  { value: '140+', label: 'Countries Worldwide' }
+]" title="Trusted by Healthcare Organizations Worldwide" />
 
 ## One Platform, Unlimited Possibilities
 
@@ -288,110 +282,78 @@ With Biograph + ERPNext ecosystem:
 
 ## Success Stories
 
-### Healthcare Organizations Running on Biograph
+<TestimonialCarousel :testimonials="[
+  {
+    quote: 'We reduced costs from $300,000 to under $50,000 annually. The ROI was immediate.',
+    author: 'Dr. Sarah Johnson',
+    role: 'CIO',
+    organization: 'Regional Hospital Group'
+  },
+  {
+    quote: 'Customization ourselves was game-changing. Our IT team learned the Frappe framework in a few weeks and now we build our own features.',
+    author: 'Ahmed Al-Rashid',
+    role: 'IT Director',
+    organization: 'Medical Complex'
+  },
+  {
+    quote: 'Perfect for multi-site diagnostic labs. BioGraph LIS module combined with ERPNext warehouse management was exactly what we needed.',
+    author: 'Dr. Priya Sharma',
+    role: 'CEO',
+    organization: 'PathCare Diagnostics'
+  },
+  {
+    quote: 'Community saved us months of development. When we had a problem with DICOM integration, someone had already built a solution.',
+    author: 'James Chen',
+    role: 'CTO',
+    organization: 'RadiologyNow'
+  }
+]" title="Healthcare Organizations Running on BioGraph" />
 
-<div class="testimonials">
-
-> "We were spending over $300,000 annually on multiple systems that didn't talk to each other. With Biograph and ERPNext, we have everything integrated, and our costs dropped to under $50,000. The ROI was immediate."
->
-> **— Dr. Sarah Johnson, CIO, Regional Hospital Group**
-
----
-
-> "The ability to customize everything ourselves was game-changing. Our IT team learned the Frappe framework in a few weeks and now we build our own features. We're not dependent on vendors anymore."
->
-> **— Ahmed Al-Rashid, IT Director, Medical Complex**
-
----
-
-> "As a diagnostic lab chain with 15 locations, we needed something that could handle high volumes and multi-site inventory. Biograph's LIS module combined with ERPNext's warehouse management was perfect."
->
-> **— Dr. Priya Sharma, CEO, PathCare Diagnostics**
-
----
-
-> "The open-source community is incredible. When we had a problem with DICOM integration, someone had already built a solution. The marketplace and community support saved us months of development."
->
-> **— James Chen, CTO, RadiologyNow**
-
-</div>
-
-## Ready to Transform Your Healthcare Operations?
-
-<div class="cta-section">
-
-### Start Your Journey Today
-
-<div class="cta-options">
-
-<div>
-
-#### 🚀 Try the Demo
-Experience Biograph with sample data
-- No installation required
-- Full feature access
-- Test workflows
-- Explore customization
-
-[**Launch Demo →**](https://marley.frappe.cloud)
-
-</div>
-
-<div>
-
-#### 📚 Read the Docs
-Comprehensive documentation
-- Installation guides
-- User manuals
-- Developer docs
-- API reference
-
-[**View Documentation →**](https://deepwiki.com/Tacten/biograph)
-
-</div>
-
-<div>
-
-#### 💬 Join the Community
-Connect with users and developers
-- Ask questions
-- Share experiences
-- Get help
-- Contribute
-
-[**Join Forum →**](https://discuss.frappe.io)
-
-</div>
-
-<div>
-
-#### 📞 Talk to an Expert
-Schedule a consultation
-- Discuss your requirements
-- Get a custom demo
-- Implementation planning
-- Pricing information
-
-[**Book a Call →**](/book-a-call)
-
-</div>
-
-</div>
-
-### Open Source Health Information System
-
-Built on the powerful Frappe/ERPNext ecosystem, Biograph gives you:
-- ✅ Complete clinical workflows (FHIR, HL7, DICOM)
-- ✅ Full ERP integration (Accounting, Inventory, HR, CRM)
-- ✅ Low-code customization platform
-- ✅ Active global community (50,000+ members)
-- ✅ Zero license fees, forever
-
-**Join thousands of healthcare organizations worldwide using open source technology to deliver better care at lower costs.**
-
-### Quick Links
-
-</div>
+<EnterpriseCTA 
+  title="Ready to Transform Your Healthcare Operations?"
+  subtitle="Join thousands of healthcare organizations worldwide using open source technology to deliver better care at lower costs."
+  :actions="[
+    {
+      title: 'Try the Demo',
+      description: 'Experience BioGraph with sample data. No installation required.',
+      link: 'https://marley.frappe.cloud',
+      linkText: 'Launch Demo',
+      icon: 'rocket',
+      external: true
+    },
+    {
+      title: 'Read the Docs',
+      description: 'Comprehensive documentation, installation guides, and API reference.',
+      link: 'https://deepwiki.com/Tacten/biograph',
+      linkText: 'View Documentation',
+      icon: 'book',
+      external: true
+    },
+    {
+      title: 'Join the Community',
+      description: 'Connect with users and developers. Ask questions, share experiences.',
+      link: 'https://discuss.frappe.io',
+      linkText: 'Join Forum',
+      icon: 'users',
+      external: true
+    },
+    {
+      title: 'Talk to an Expert',
+      description: 'Schedule a consultation. Discuss requirements and get a custom demo.',
+      link: '/book-a-call',
+      linkText: 'Book a Call',
+      icon: 'phone',
+      external: false
+    }
+  ]"
+  :highlights="[
+    'Complete clinical workflows (FHIR, HL7, DICOM)',
+    'Full ERP integration (Accounting, Inventory, HR, CRM)',
+    'Low-code customization platform',
+    'Active global community (50,000+ members)',
+    'Zero license fees, forever'
+  ]"
+/>
 
 <div class="footer-links">
 
